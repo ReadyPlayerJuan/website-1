@@ -1,0 +1,54 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Climb</title>
+    <link rel="stylesheet" href="climb.css" />
+</head>
+<body onresize="resize();">
+    <script src="climb.js"></script>
+    <div id="info">
+        <p class="left">Created by Nick Seel, concept by Henry Heinks</p>
+        <p class="right" id="score">Score: 0</p>
+        <br />
+        <p class="left">V1.2</p>
+    </div>
+
+    <div id="startScreen">
+        <div id="message">
+            <h1>Welcome to Climb!</h1>
+            <p>Use the arrow keys or WASD to move.</p>
+            <p>Press space to pause.</p>
+            <p>Don't get crushed, and don't fall behind!</p>
+            <button id="start">START</button>
+        </div>
+    </div>
+
+    <div id="deathScreen" style="visibility: hidden;">
+        <div id="message">
+            <h1>You lose...</h1>
+            <p id="deathScreenScore">Score: 0</p>
+            <button id="restart">RESTART</button>
+        </div>
+    </div>
+
+    <div id="pauseScreen" style="visibility: hidden;">
+        <div id="message">
+            <h1>Paused</h1>
+            <p>Press space</p>
+            <button id="unpause">CONTINUE</button>
+        </div>
+    </div>
+
+    <div id="climbGame">
+        <canvas id="gameScreen"></canvas>
+    </div>
+
+    <script>
+        loadCanvas();
+        initButtons();
+        draw();
+    </script>
+</body>
+</html>

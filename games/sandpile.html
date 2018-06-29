@@ -1,0 +1,39 @@
+﻿<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>sandpile?</title>
+  <link rel="stylesheet" href="sandpile.css" />
+</head>
+<body>
+    <script src="sandpile.js"></script>
+  <div id="menu">
+      <container>
+          <button id="-100">-100</button>
+          <button id="-10">-10</button>
+          <button id="-1">-1</button>
+          &nbsp;Pile Size: <font id="sandCount">100</font>&nbsp;
+          <button id="+1">+1</button>
+          <button id="+10">+10</button>
+          <button id="+100">+100</button>
+          <br />
+          Speed: <font id="speed">instant</font>&nbsp;
+          <button id="slow">Slow</button>
+          <button id="fast">Fast</button>
+          <button id="instant">Fastest</button>
+          <br />
+          <br />
+          <button id="add">Add Sand</button>
+      </container>
+  </div>
+
+  <div id="drawArea">
+
+  </div>
+
+  <script>
+    initButtons();
+  </script>
+</body>
+</html>

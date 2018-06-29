@@ -1,0 +1,40 @@
+﻿@charset "UTF-8";
+
+#menu {
+  font-size: 14px;
+  font-family: "Trebuchet MS";
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+  padding: 6px;
+  background: rgb(230,230,230);
+  border-width: 2px;
+  border-color: rgb(160,160,160);
+  border-style: solid;
+  border-radius: 4px;
+}
+
+#menu button {
+  font-size: 14px;
+  margin: 3px 0px 3px 0px;
+  background: rgb(200,200,200);
+  border-width: 1px;
+  border-radius: 1px;
+  padding: 0px 2px 0px 2px;
+}
+
+#menu button:hover {
+  background: rgb(150,150,150);
+}
+
+#drawArea {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+#drawArea .sandPile {
+  background: red;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+}

@@ -1,0 +1,68 @@
+﻿@charset "UTF-8";
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  background: #ECEFF1;
+  color: rgba(0,0,0,0.87);
+  text-align: center;
+}
+
+a {
+  color: rgb(3,155,229);
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 0 16px;
+}
+
+p {
+  font-weight: 300;
+  line-height: 150%;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 16px 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+.background {
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: none;
+    background-color: #fb2424;
+    position: absolute;
+}
+
+.game-area {
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: none;
+    background-color: #0022c6;
+    position: absolute;
+}
+
+.snake-block {
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: none;
+    background-color: #edfe17;
+    position: absolute;
+}
+
+.food-block {
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: none;
+    background-color: #0aff00;
+    position: absolute;
+}

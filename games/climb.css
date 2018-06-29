@@ -1,0 +1,67 @@
+﻿@charset "UTF-8";
+
+#climbGame canvas {
+    position: absolute;
+}
+
+body {
+    overflow: hidden;
+}
+
+#info p {
+    z-index: 1;
+    position: absolute;
+    transform: translateY(-90%);
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#info p.left {
+    left: 10px;
+}
+
+#info p.right {
+    right: 10px;
+}
+
+#message {
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    margin: 10px auto;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2),0 1px 1px 0 rgba(0,0,0,0.14),0 2px 1px -1px rgba(0,0,0,0.12);
+    border-radius: 2px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 7px 10px;
+}
+
+#message h1 {
+    margin: 6px;
+}
+
+#message p {
+    margin: 3px;
+}
+
+#message button {
+    color: black;
+    font-size: 16px;
+
+    margin: 12px 3px 3px 3px;
+    text-align: center;
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 1px;
+    background: rgba(200, 200, 200, 1.0);
+    padding: 1px 4px 1px 4px;
+}
+
+#message button:hover {
+    background: rgba(170, 170, 170, 1.0);
+}

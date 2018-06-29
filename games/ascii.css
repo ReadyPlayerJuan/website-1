@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+h1 {
+    margin: -4px 0 0 0;
+    text-align: center;
+}
+
+.top-bar {
+    margin: 0px;
+    padding: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+    background-color: green;
+}
+
+highlight {
+
+}
+
+.main-screen {
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0px;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: left;
+
+    background-color: lawngreen;
+}
